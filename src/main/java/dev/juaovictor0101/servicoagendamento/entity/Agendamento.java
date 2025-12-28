@@ -1,10 +1,9 @@
 package dev.juaovictor0101.servicoagendamento.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -12,6 +11,7 @@ import lombok.Setter;
 @Table(name = "tb_agendamento")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Agendamento {
 
     @Id
@@ -25,10 +25,10 @@ public class Agendamento {
     private String descricao;
 
     @Column(name = "data_inicio", nullable = false)
-    private String dataInicio;
+    private LocalDateTime dataInicio;
 
     @Column(name = "data_fim", nullable = false)
-    private String dataFim;
+    private LocalDateTime dataFim;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
@@ -38,10 +38,10 @@ public class Agendamento {
     private String usuario;
 
     @Column(name = "criado_em", nullable = false)
-    private String criadoEm;
+    private LocalDateTime criadoEm;
 
     @Column(name = "atualizado_em", nullable = false)
-    private String atualizadoEm;
+    private LocalDateTime atualizadoEm;
 
 
 }
