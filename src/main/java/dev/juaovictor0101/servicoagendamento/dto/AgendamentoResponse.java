@@ -1,6 +1,6 @@
 package dev.juaovictor0101.servicoagendamento.dto;
 
-import dev.juaovictor0101.servicoagendamento.entity.StatusAgendamento;
+import dev.juaovictor0101.servicoagendamento.entities.StatusAgendamento;
 
 import java.time.LocalDateTime;
 

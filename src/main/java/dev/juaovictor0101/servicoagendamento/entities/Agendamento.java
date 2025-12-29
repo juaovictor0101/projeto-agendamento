@@ -1,4 +1,4 @@
-package dev.juaovictor0101.servicoagendamento.entity;
+package dev.juaovictor0101.servicoagendamento.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

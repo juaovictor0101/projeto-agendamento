@@ -3,8 +3,8 @@ package dev.juaovictor0101.servicoagendamento.mapper;
 import dev.juaovictor0101.servicoagendamento.dto.AgendamentoCreateRequest;
 import dev.juaovictor0101.servicoagendamento.dto.AgendamentoResponse;
 import dev.juaovictor0101.servicoagendamento.dto.AgendamentoUpdateRequest;
-import dev.juaovictor0101.servicoagendamento.entity.Agendamento;
-import dev.juaovictor0101.servicoagendamento.entity.StatusAgendamento;
+import dev.juaovictor0101.servicoagendamento.entities.Agendamento;
+import dev.juaovictor0101.servicoagendamento.entities.StatusAgendamento;
 
 import java.time.LocalDateTime;
 
