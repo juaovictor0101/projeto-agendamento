@@ -1,4 +1,4 @@
-package dev.juaovictor0101.servicoagendamento.dto;
+package dev.juaovictor0101.servicoagendamento.infrastructure.dtos;
 
 import dev.juaovictor0101.servicoagendamento.core.enums.StatusAgendamento;
 

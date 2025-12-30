@@ -1,4 +1,4 @@
-package dev.juaovictor0101.servicoagendamento.entities;
+package dev.juaovictor0101.servicoagendamento.infrastructure.persistence;
 
 import dev.juaovictor0101.servicoagendamento.core.enums.StatusAgendamento;
 import jakarta.persistence.*;
@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Agendamento {
+public class AgendamentoEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -43,6 +43,4 @@ public class Agendamento {
 
     @Column(name = "atualizado_em", nullable = false)
     private LocalDateTime atualizadoEm;
-
-
 }

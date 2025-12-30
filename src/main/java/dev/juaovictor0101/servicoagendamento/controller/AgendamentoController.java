@@ -1,9 +1,9 @@
 package dev.juaovictor0101.servicoagendamento.controller;
 
 
-import dev.juaovictor0101.servicoagendamento.dto.AgendamentoCreateRequest;
-import dev.juaovictor0101.servicoagendamento.dto.AgendamentoResponse;
-import dev.juaovictor0101.servicoagendamento.dto.AgendamentoUpdateRequest;
+import dev.juaovictor0101.servicoagendamento.infrastructure.dtos.AgendamentoCreateRequest;
+import dev.juaovictor0101.servicoagendamento.infrastructure.dtos.AgendamentoResponse;
+import dev.juaovictor0101.servicoagendamento.infrastructure.dtos.AgendamentoUpdateRequest;
 import dev.juaovictor0101.servicoagendamento.service.AgendamentoService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
