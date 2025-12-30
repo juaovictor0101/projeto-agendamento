@@ -1,5 +1,6 @@
 package dev.juaovictor0101.servicoagendamento.entities;
 
+import dev.juaovictor0101.servicoagendamento.core.enums.StatusAgendamento;
 import jakarta.persistence.*;
 import lombok.*;
 

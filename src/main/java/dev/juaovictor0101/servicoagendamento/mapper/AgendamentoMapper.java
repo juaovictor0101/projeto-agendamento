@@ -4,7 +4,7 @@ import dev.juaovictor0101.servicoagendamento.dto.AgendamentoCreateRequest;
 import dev.juaovictor0101.servicoagendamento.dto.AgendamentoResponse;
 import dev.juaovictor0101.servicoagendamento.dto.AgendamentoUpdateRequest;
 import dev.juaovictor0101.servicoagendamento.entities.Agendamento;
-import dev.juaovictor0101.servicoagendamento.entities.StatusAgendamento;
+import dev.juaovictor0101.servicoagendamento.core.enums.StatusAgendamento;
 
 import java.time.LocalDateTime;
 
